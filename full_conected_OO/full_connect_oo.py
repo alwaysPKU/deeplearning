@@ -1,6 +1,7 @@
 from functools import reduce
 import random
-import numpy
+from numpy import *
+
 import math
 
 
@@ -359,4 +360,35 @@ class Network(object):
         """
         for layer in self.layers:
             layer.dump()
+
+
+class Normalizer(object):
+    def __init__(self):
+        self.mask = [
+            0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x80
+        ]
+
+    def norm(self, number):
+        """
+        这里python 3.x 中map函数返回的是iterators，无法像python2.x 直接返回一个list，
+        故需要再加上一个list()将iterators转化为一个list
+        :param number: 
+        :return: 
+        """
+        return list(map(lambda m: 0.9 if number & m else 0.1, self.mask))
+
+    def denorm(self, vec):
+        binary = map(lambda i: 1 if i > 0.5 else 0, vec)
+        for i in range(len(self.mask)):
+            binary[i] = binary[i] * self.mask[i]
+        return reduce(lambda x, y: x + y, binary)
+
+    def mean_square_error(vec1, vec2):
+        return 0.5 * reduce(lambda a, b: a + b,
+                            map(lambda v: (v[0] - v[1]) * (v[0] - v[1]),
+                                zip(vec1, vec2)
+                                )
+                            )
+    
+
 
