@@ -471,7 +471,7 @@ def gradient_check_test():
     gradient_check(net, sample_feature, sample_label)
 
 if __name__ == '__main__':
-    net = Network([8, 100, 8])
+    net = Network([8, 3, 8])
     train(net)
     net.dump()
     correct_ratio(net)
