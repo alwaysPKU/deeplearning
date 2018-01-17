@@ -2,8 +2,6 @@ from functools import reduce
 import random
 from numpy import *
 
-import math
-
 
 def sigmoid(inX):
     """
@@ -11,7 +9,7 @@ def sigmoid(inX):
     :param inX: 输入
     :return: sigmoid输出
     """
-    return 1.0 / (1 + math.exp(-inX))
+    return 1.0 / (1 + exp(-inX))
 
 
 class Node(object):

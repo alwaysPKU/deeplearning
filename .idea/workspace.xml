@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ec589c8-9580-4597-991b-f612942e741b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full_conected_OO/full_connect_oo.py" afterPath="$PROJECT_DIR$/full_conected_OO/full_connect_oo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full_conected_OO/mnist.py" afterPath="$PROJECT_DIR$/full_conected_OO/mnist.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +13,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/neural_network$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1516187557504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/full_conected_OO" />
+    <SUITE FILE_PATH="coverage/neural_network$test.coverage" NAME="test Coverage Results" MODIFIED="1516190908429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mnist_data" />
     <SUITE FILE_PATH="coverage/neural_network$full_connect_oo.coverage" NAME="full_connect_oo Coverage Results" MODIFIED="1516171082762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/full_conected_OO" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -21,42 +23,47 @@
       <file leaf-file-name="full_connect_oo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/full_conected_OO/full_connect_oo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="480" column="0" lean-forward="true" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
+            <state relative-caret-position="140">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#100#207#0" expanded="false" />
-                <element signature="e#234#2592#0" expanded="false" />
-                <element signature="e#2624#3809#0" expanded="false" />
-                <element signature="e#3837#4742#0" expanded="false" />
-                <element signature="e#4775#5968#0" expanded="false" />
-                <element signature="e#6002#6270#0" expanded="false" />
-                <element signature="e#10191#10399#0" expanded="false" />
-                <element signature="e#10465#11543#0" expanded="false" />
-                <element signature="e#11572#11799#0" expanded="false" />
-                <element signature="e#11938#12139#0" expanded="false" />
-                <element signature="e#12174#12400#0" expanded="false" />
-                <element signature="e#12434#12574#0" expanded="false" />
+                <element signature="e#87#189#0" expanded="false" />
+                <element signature="e#216#2574#0" expanded="false" />
+                <element signature="e#2606#3791#0" expanded="false" />
+                <element signature="e#3819#4724#0" expanded="false" />
+                <element signature="e#4757#5950#0" expanded="false" />
+                <element signature="e#5984#6252#0" expanded="false" />
+                <element signature="e#10173#10381#0" expanded="false" />
+                <element signature="e#10447#11525#0" expanded="false" />
+                <element signature="e#11554#11781#0" expanded="false" />
+                <element signature="e#11920#12121#0" expanded="false" />
+                <element signature="e#12156#12382#0" expanded="false" />
+                <element signature="e#12416#12556#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnist.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mnist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/full_conected_OO/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="184" column="24" lean-forward="true" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <element signature="e#129#672#0" expanded="false" />
-                <element signature="e#713#1694#0" expanded="false" />
-                <element signature="e#1735#2356#0" expanded="false" />
-                <element signature="e#2653#2870#0" expanded="false" />
-                <element signature="e#2898#3153#0" expanded="false" />
-                <element signature="e#3211#3588#0" expanded="false" />
-                <element signature="e#3621#4200#0" expanded="false" />
+                <element signature="e#3058#3313#0" expanded="false" />
+                <element signature="e#3371#3748#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mnist_data/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,8 +117,9 @@
         <option value="$PROJECT_DIR$/Node.py" />
         <option value="$PROJECT_DIR$/full_conected_OO/__init__.py" />
         <option value="$PROJECT_DIR$/full_conected_OO/Node.py" />
-        <option value="$PROJECT_DIR$/full_conected_OO/mnist.py" />
         <option value="$PROJECT_DIR$/full_conected_OO/full_connect_oo.py" />
+        <option value="$PROJECT_DIR$/full_conected_OO/mnist.py" />
+        <option value="$PROJECT_DIR$/Mnist_data/test.py" />
       </list>
     </option>
   </component>
@@ -124,7 +132,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="729" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,6 +184,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Mnist_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neural_network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neural_network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="full_conected_OO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -205,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.full_connect_oo">
+  <component name="RunManager" selected="Python.test">
     <configuration default="false" name="full_connect_oo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,6 +242,44 @@
       <module name="neural_network" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/full_conected_OO/full_connect_oo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/full_conected_OO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="neural_network" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/full_conected_OO/mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mnist_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="neural_network" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mnist_data/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,12 +433,16 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.full_connect_oo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mnist" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.full_connect_oo" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mnist" />
+        <item index="2" class="java.lang.String" itemvalue="Python.full_connect_oo" />
       </list>
     </recent_temporary>
   </component>
@@ -396,13 +460,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="729" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="728" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26494345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26494345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2913257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2913257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -438,18 +502,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#100#207#0" expanded="false" />
-            <element signature="e#234#2592#0" expanded="false" />
-            <element signature="e#2624#3809#0" expanded="false" />
-            <element signature="e#3837#4742#0" expanded="false" />
-            <element signature="e#4775#5968#0" expanded="false" />
-            <element signature="e#6002#6270#0" expanded="false" />
-            <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11543#0" expanded="false" />
-            <element signature="e#11572#11799#0" expanded="false" />
-            <element signature="e#11938#12139#0" expanded="false" />
-            <element signature="e#12174#12400#0" expanded="false" />
-            <element signature="e#12434#12574#0" expanded="false" />
+            <element signature="e#87#189#0" expanded="false" />
+            <element signature="e#216#2574#0" expanded="false" />
+            <element signature="e#2606#3791#0" expanded="false" />
+            <element signature="e#3819#4724#0" expanded="false" />
+            <element signature="e#4757#5950#0" expanded="false" />
+            <element signature="e#5984#6252#0" expanded="false" />
+            <element signature="e#10173#10381#0" expanded="false" />
+            <element signature="e#10447#11525#0" expanded="false" />
+            <element signature="e#11554#11781#0" expanded="false" />
+            <element signature="e#11920#12121#0" expanded="false" />
+            <element signature="e#12156#12382#0" expanded="false" />
+            <element signature="e#12416#12556#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -476,18 +540,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#100#207#0" expanded="false" />
-            <element signature="e#234#2592#0" expanded="false" />
-            <element signature="e#2624#3809#0" expanded="false" />
-            <element signature="e#3837#4742#0" expanded="false" />
-            <element signature="e#4775#5968#0" expanded="false" />
-            <element signature="e#6002#6270#0" expanded="false" />
-            <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11543#0" expanded="false" />
-            <element signature="e#11572#11799#0" expanded="false" />
-            <element signature="e#11938#12139#0" expanded="false" />
-            <element signature="e#12174#12400#0" expanded="false" />
-            <element signature="e#12434#12574#0" expanded="false" />
+            <element signature="e#87#189#0" expanded="false" />
+            <element signature="e#216#2574#0" expanded="false" />
+            <element signature="e#2606#3791#0" expanded="false" />
+            <element signature="e#3819#4724#0" expanded="false" />
+            <element signature="e#4757#5950#0" expanded="false" />
+            <element signature="e#5984#6252#0" expanded="false" />
+            <element signature="e#10173#10381#0" expanded="false" />
+            <element signature="e#10447#11525#0" expanded="false" />
+            <element signature="e#11554#11781#0" expanded="false" />
+            <element signature="e#11920#12121#0" expanded="false" />
+            <element signature="e#12156#12382#0" expanded="false" />
+            <element signature="e#12416#12556#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -514,18 +578,18 @@
           <caret line="361" column="0" lean-forward="false" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#100#207#0" expanded="false" />
-            <element signature="e#234#2592#0" expanded="false" />
-            <element signature="e#2624#3809#0" expanded="false" />
-            <element signature="e#3837#4742#0" expanded="false" />
-            <element signature="e#4775#5968#0" expanded="false" />
-            <element signature="e#6002#6270#0" expanded="false" />
-            <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11543#0" expanded="false" />
-            <element signature="e#11572#11799#0" expanded="false" />
-            <element signature="e#11938#12139#0" expanded="false" />
-            <element signature="e#12174#12400#0" expanded="false" />
-            <element signature="e#12434#12574#0" expanded="false" />
+            <element signature="e#87#189#0" expanded="false" />
+            <element signature="e#216#2574#0" expanded="false" />
+            <element signature="e#2606#3791#0" expanded="false" />
+            <element signature="e#3819#4724#0" expanded="false" />
+            <element signature="e#4757#5950#0" expanded="false" />
+            <element signature="e#5984#6252#0" expanded="false" />
+            <element signature="e#10173#10381#0" expanded="false" />
+            <element signature="e#10447#11525#0" expanded="false" />
+            <element signature="e#11554#11781#0" expanded="false" />
+            <element signature="e#11920#12121#0" expanded="false" />
+            <element signature="e#12156#12382#0" expanded="false" />
+            <element signature="e#12416#12556#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -552,18 +616,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#100#207#0" expanded="false" />
-            <element signature="e#234#2592#0" expanded="false" />
-            <element signature="e#2624#3809#0" expanded="false" />
-            <element signature="e#3837#4742#0" expanded="false" />
-            <element signature="e#4775#5968#0" expanded="false" />
-            <element signature="e#6002#6270#0" expanded="false" />
-            <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11543#0" expanded="false" />
-            <element signature="e#11572#11799#0" expanded="false" />
-            <element signature="e#11938#12139#0" expanded="false" />
-            <element signature="e#12174#12400#0" expanded="false" />
-            <element signature="e#12434#12574#0" expanded="false" />
+            <element signature="e#87#189#0" expanded="false" />
+            <element signature="e#216#2574#0" expanded="false" />
+            <element signature="e#2606#3791#0" expanded="false" />
+            <element signature="e#3819#4724#0" expanded="false" />
+            <element signature="e#4757#5950#0" expanded="false" />
+            <element signature="e#5984#6252#0" expanded="false" />
+            <element signature="e#10173#10381#0" expanded="false" />
+            <element signature="e#10447#11525#0" expanded="false" />
+            <element signature="e#11554#11781#0" expanded="false" />
+            <element signature="e#11920#12121#0" expanded="false" />
+            <element signature="e#12156#12382#0" expanded="false" />
+            <element signature="e#12416#12556#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -590,18 +654,18 @@
           <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#100#207#0" expanded="false" />
-            <element signature="e#234#2592#0" expanded="false" />
-            <element signature="e#2624#3809#0" expanded="false" />
-            <element signature="e#3837#4742#0" expanded="false" />
-            <element signature="e#4775#5968#0" expanded="false" />
-            <element signature="e#6002#6270#0" expanded="false" />
-            <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11543#0" expanded="false" />
-            <element signature="e#11572#11799#0" expanded="false" />
-            <element signature="e#11938#12139#0" expanded="false" />
-            <element signature="e#12174#12400#0" expanded="false" />
-            <element signature="e#12434#12574#0" expanded="false" />
+            <element signature="e#87#189#0" expanded="false" />
+            <element signature="e#216#2574#0" expanded="false" />
+            <element signature="e#2606#3791#0" expanded="false" />
+            <element signature="e#3819#4724#0" expanded="false" />
+            <element signature="e#4757#5950#0" expanded="false" />
+            <element signature="e#5984#6252#0" expanded="false" />
+            <element signature="e#10173#10381#0" expanded="false" />
+            <element signature="e#10447#11525#0" expanded="false" />
+            <element signature="e#11554#11781#0" expanded="false" />
+            <element signature="e#11920#12121#0" expanded="false" />
+            <element signature="e#12156#12382#0" expanded="false" />
+            <element signature="e#12416#12556#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -647,40 +711,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/full_conected_OO/full_connect_oo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="480" column="0" lean-forward="true" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#100#207#0" expanded="false" />
-            <element signature="e#234#2592#0" expanded="false" />
-            <element signature="e#2624#3809#0" expanded="false" />
-            <element signature="e#3837#4742#0" expanded="false" />
-            <element signature="e#4775#5968#0" expanded="false" />
-            <element signature="e#6002#6270#0" expanded="false" />
-            <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11543#0" expanded="false" />
-            <element signature="e#11572#11799#0" expanded="false" />
-            <element signature="e#11938#12139#0" expanded="false" />
-            <element signature="e#12174#12400#0" expanded="false" />
-            <element signature="e#12434#12574#0" expanded="false" />
+            <element signature="e#87#189#0" expanded="false" />
+            <element signature="e#216#2574#0" expanded="false" />
+            <element signature="e#2606#3791#0" expanded="false" />
+            <element signature="e#3819#4724#0" expanded="false" />
+            <element signature="e#4757#5950#0" expanded="false" />
+            <element signature="e#5984#6252#0" expanded="false" />
+            <element signature="e#10173#10381#0" expanded="false" />
+            <element signature="e#10447#11525#0" expanded="false" />
+            <element signature="e#11554#11781#0" expanded="false" />
+            <element signature="e#11920#12121#0" expanded="false" />
+            <element signature="e#12156#12382#0" expanded="false" />
+            <element signature="e#12416#12556#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/full_conected_OO/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+        <state relative-caret-position="239">
+          <caret line="184" column="24" lean-forward="true" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#129#672#0" expanded="false" />
-            <element signature="e#713#1694#0" expanded="false" />
-            <element signature="e#1735#2356#0" expanded="false" />
-            <element signature="e#2653#2870#0" expanded="false" />
-            <element signature="e#2898#3153#0" expanded="false" />
-            <element signature="e#3211#3588#0" expanded="false" />
-            <element signature="e#3621#4200#0" expanded="false" />
+            <element signature="e#3058#3313#0" expanded="false" />
+            <element signature="e#3371#3748#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mnist_data/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

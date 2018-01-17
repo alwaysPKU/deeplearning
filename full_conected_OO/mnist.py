@@ -47,7 +47,8 @@ class ImageLoader(Loader):
         for i in range(28):
             picture.append([])
             for j in range(28):
-                picture[i].append(self.to_int(content[start + i * 28 + j]))
+                # picture[i].append(self.to_int(content[start + i * 28 + j]))
+                picture[i].append(content[start + i * 28 + j])
         return picture
 
     def get_one_sample(self, picture):
@@ -83,7 +84,8 @@ class LabelLoader(Loader):
         :return: 
         """
         label_vec = []
-        label_value = self.to_int(label)
+        # label_value = self.to_int(label)
+        label_value = label
         for i in range(10):
             if i == label_value:
                 label_vec.append(0.9)
@@ -99,7 +101,7 @@ class LabelLoader(Loader):
         content = self.get_file_content()
         labels = []
         for index in range(self.count):
-            labels.append(self.norm(index + 8))
+            labels.append(self.norm(content[index + 8]))
         return labels
 
 
@@ -108,8 +110,8 @@ def get_training_data_set():
     获得训练数据集
     :return: train_data
     """
-    image_loader = ImageLoader('train-images-idx3-ubyte', 60000)
-    label_loader = LabelLoader('train-labels-idx1-ubyte', 60000)
+    image_loader = ImageLoader('../Mnist_data/train-images-idx3-ubyte', 60000)
+    label_loader = LabelLoader('../Mnist_data/train-labels-idx1-ubyte', 60000)
     return image_loader.load(), label_loader.load()
 
 
@@ -118,8 +120,8 @@ def get_test_data_set():
     获得测试数据集
     :return: 
     """
-    image_loader = ImageLoader('t10k-images-idx3-ubyte', 10000)
-    label_loader = LabelLoader('t10k-labels-idx1-ubyte', 10000)
+    image_loader = ImageLoader('../Mnist_data/t10k-images-idx3-ubyte', 10000)
+    label_loader = LabelLoader('../Mnist_data/t10k-labels-idx1-ubyte', 10000)
     return image_loader.load(), label_loader.load()
 
 
@@ -157,6 +159,10 @@ def evaluate(network, test_data_set, test_labels):
     return float(error)/float(total)
 
 
+def now():
+    return datetime.now().strftime('%c')
+
+
 def train_and_evaluate():
     last_error_ratio = 1.0
     epoch = 0
@@ -166,7 +172,7 @@ def train_and_evaluate():
     while True:
         epoch += 1
         network.train(train_labels, train_data_set, 0.3, 1)
-        print('%s epoch %d finished' % (datetime.now(), epoch))
+        print('%s epoch %d finished' % (now(), epoch))
         if epoch % 10 == 0:
             error_ratio = evaluate(network, test_data_set, test_labels)
             if error_ratio > last_error_ratio:
