@@ -394,12 +394,13 @@ def mean_square_error(vec1, vec2):
 
 
 def gradient_check(network, sample_feature, sample_label):
-    '''
+    """
     梯度检查
-    network: 神经网络对象
-    sample_feature: 样本的特征
-    sample_label: 样本的标签
-    '''
+    :param network: 
+    :param sample_feature: 神经网络对象
+    :param sample_label: 样本的标签
+    :return: 
+    """
     # 计算网络误差
     network_error = lambda vec1, vec2: \
         0.5 * reduce(lambda a, b: a + b,
@@ -470,10 +471,10 @@ def gradient_check_test():
     sample_label = [0.9, 0.1]
     gradient_check(net, sample_feature, sample_label)
 
-if __name__ == '__main__':
-    net = Network([8, 3, 8])
-    train(net)
-    net.dump()
-    correct_ratio(net)
+# if __name__ == '__main__':
+#     net = Network([8, 3, 8])
+#     train(net)
+#     net.dump()
+#     correct_ratio(net)
 
 

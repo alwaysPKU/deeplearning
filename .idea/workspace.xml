@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ec589c8-9580-4597-991b-f612942e741b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full_conected_OO/full_connect_oo.py" afterPath="$PROJECT_DIR$/full_conected_OO/full_connect_oo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="full_connect_oo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="full_connect_oo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/full_conected_OO/full_connect_oo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="473" column="23" lean-forward="false" selection-start-line="473" selection-start-column="23" selection-end-line="473" selection-end-column="23" />
+            <state relative-caret-position="295">
+              <caret line="480" column="0" lean-forward="true" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <element signature="e#100#207#0" expanded="false" />
@@ -31,10 +32,30 @@
                 <element signature="e#4775#5968#0" expanded="false" />
                 <element signature="e#6002#6270#0" expanded="false" />
                 <element signature="e#10191#10399#0" expanded="false" />
-                <element signature="e#10465#11513#0" expanded="false" />
-                <element signature="e#11542#11769#0" expanded="false" />
-                <element signature="e#11908#12109#0" expanded="false" />
-                <element signature="e#12404#12544#0" expanded="false" />
+                <element signature="e#10465#11543#0" expanded="false" />
+                <element signature="e#11572#11799#0" expanded="false" />
+                <element signature="e#11938#12139#0" expanded="false" />
+                <element signature="e#12174#12400#0" expanded="false" />
+                <element signature="e#12434#12574#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mnist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/full_conected_OO/mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#129#672#0" expanded="false" />
+                <element signature="e#713#1694#0" expanded="false" />
+                <element signature="e#1735#2356#0" expanded="false" />
+                <element signature="e#2653#2870#0" expanded="false" />
+                <element signature="e#2898#3153#0" expanded="false" />
+                <element signature="e#3211#3588#0" expanded="false" />
+                <element signature="e#3621#4200#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -89,6 +110,7 @@
         <option value="$PROJECT_DIR$/Node.py" />
         <option value="$PROJECT_DIR$/full_conected_OO/__init__.py" />
         <option value="$PROJECT_DIR$/full_conected_OO/Node.py" />
+        <option value="$PROJECT_DIR$/full_conected_OO/mnist.py" />
         <option value="$PROJECT_DIR$/full_conected_OO/full_connect_oo.py" />
       </list>
     </option>
@@ -375,9 +397,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26494345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26494345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -406,7 +427,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -424,10 +445,11 @@
             <element signature="e#4775#5968#0" expanded="false" />
             <element signature="e#6002#6270#0" expanded="false" />
             <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11513#0" expanded="false" />
-            <element signature="e#11542#11769#0" expanded="false" />
-            <element signature="e#11908#12109#0" expanded="false" />
-            <element signature="e#12404#12544#0" expanded="false" />
+            <element signature="e#10465#11543#0" expanded="false" />
+            <element signature="e#11572#11799#0" expanded="false" />
+            <element signature="e#11938#12139#0" expanded="false" />
+            <element signature="e#12174#12400#0" expanded="false" />
+            <element signature="e#12434#12574#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -461,10 +483,11 @@
             <element signature="e#4775#5968#0" expanded="false" />
             <element signature="e#6002#6270#0" expanded="false" />
             <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11513#0" expanded="false" />
-            <element signature="e#11542#11769#0" expanded="false" />
-            <element signature="e#11908#12109#0" expanded="false" />
-            <element signature="e#12404#12544#0" expanded="false" />
+            <element signature="e#10465#11543#0" expanded="false" />
+            <element signature="e#11572#11799#0" expanded="false" />
+            <element signature="e#11938#12139#0" expanded="false" />
+            <element signature="e#12174#12400#0" expanded="false" />
+            <element signature="e#12434#12574#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -498,10 +521,11 @@
             <element signature="e#4775#5968#0" expanded="false" />
             <element signature="e#6002#6270#0" expanded="false" />
             <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11513#0" expanded="false" />
-            <element signature="e#11542#11769#0" expanded="false" />
-            <element signature="e#11908#12109#0" expanded="false" />
-            <element signature="e#12404#12544#0" expanded="false" />
+            <element signature="e#10465#11543#0" expanded="false" />
+            <element signature="e#11572#11799#0" expanded="false" />
+            <element signature="e#11938#12139#0" expanded="false" />
+            <element signature="e#12174#12400#0" expanded="false" />
+            <element signature="e#12434#12574#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -535,10 +559,11 @@
             <element signature="e#4775#5968#0" expanded="false" />
             <element signature="e#6002#6270#0" expanded="false" />
             <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11513#0" expanded="false" />
-            <element signature="e#11542#11769#0" expanded="false" />
-            <element signature="e#11908#12109#0" expanded="false" />
-            <element signature="e#12404#12544#0" expanded="false" />
+            <element signature="e#10465#11543#0" expanded="false" />
+            <element signature="e#11572#11799#0" expanded="false" />
+            <element signature="e#11938#12139#0" expanded="false" />
+            <element signature="e#12174#12400#0" expanded="false" />
+            <element signature="e#12434#12574#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,10 +597,11 @@
             <element signature="e#4775#5968#0" expanded="false" />
             <element signature="e#6002#6270#0" expanded="false" />
             <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11513#0" expanded="false" />
-            <element signature="e#11542#11769#0" expanded="false" />
-            <element signature="e#11908#12109#0" expanded="false" />
-            <element signature="e#12404#12544#0" expanded="false" />
+            <element signature="e#10465#11543#0" expanded="false" />
+            <element signature="e#11572#11799#0" expanded="false" />
+            <element signature="e#11938#12139#0" expanded="false" />
+            <element signature="e#12174#12400#0" expanded="false" />
+            <element signature="e#12434#12574#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -621,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/full_conected_OO/full_connect_oo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="473" column="23" lean-forward="false" selection-start-line="473" selection-start-column="23" selection-end-line="473" selection-end-column="23" />
+        <state relative-caret-position="295">
+          <caret line="480" column="0" lean-forward="true" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <element signature="e#100#207#0" expanded="false" />
@@ -632,10 +658,28 @@
             <element signature="e#4775#5968#0" expanded="false" />
             <element signature="e#6002#6270#0" expanded="false" />
             <element signature="e#10191#10399#0" expanded="false" />
-            <element signature="e#10465#11513#0" expanded="false" />
-            <element signature="e#11542#11769#0" expanded="false" />
-            <element signature="e#11908#12109#0" expanded="false" />
-            <element signature="e#12404#12544#0" expanded="false" />
+            <element signature="e#10465#11543#0" expanded="false" />
+            <element signature="e#11572#11799#0" expanded="false" />
+            <element signature="e#11938#12139#0" expanded="false" />
+            <element signature="e#12174#12400#0" expanded="false" />
+            <element signature="e#12434#12574#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full_conected_OO/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#129#672#0" expanded="false" />
+            <element signature="e#713#1694#0" expanded="false" />
+            <element signature="e#1735#2356#0" expanded="false" />
+            <element signature="e#2653#2870#0" expanded="false" />
+            <element signature="e#2898#3153#0" expanded="false" />
+            <element signature="e#3211#3588#0" expanded="false" />
+            <element signature="e#3621#4200#0" expanded="false" />
           </folding>
         </state>
       </provider>
