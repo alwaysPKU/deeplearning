@@ -1,4 +1,4 @@
-from full_conected_OO.full_connect_oo import *
+from full_conected.full_connect_oo import *
 import struct
 from datetime import datetime
 
@@ -181,5 +181,5 @@ def train_and_evaluate():
                 last_error_ratio = error_ratio
 
 
-if __name__ == '__main__':
-    train_and_evaluate()
+# if __name__ == '__main__':
+#     train_and_evaluate()
