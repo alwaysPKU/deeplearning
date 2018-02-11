@@ -47,7 +47,7 @@
       <file leaf-file-name="mnist.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/full_conected/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
+            <state relative-caret-position="516">
               <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -117,7 +117,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="728" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -135,6 +135,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,8 +161,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,10 +438,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="728" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="729" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28513733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29402262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -475,6 +475,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/full_conected/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#126#669#0" expanded="false" />
+            <element signature="e#710#1756#0" expanded="false" />
+            <element signature="e#1797#2457#0" expanded="false" />
+            <element signature="e#2493#2750#0" expanded="false" />
+            <element signature="e#2782#3027#0" expanded="false" />
+            <element signature="e#3055#3310#0" expanded="false" />
+            <element signature="e#3368#3745#0" expanded="false" />
+            <element signature="e#3763#3799#0" expanded="false" />
+            <element signature="e#3832#4405#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/full_conected/full_connect_oo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7420">
@@ -549,17 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2180">
           <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#242#1674#0" expanded="false" />
-            <element signature="e#1709#4770#0" expanded="false" />
-            <element signature="e#4798#4948#0" expanded="false" />
-            <element signature="e#4981#5456#0" expanded="false" />
-            <element signature="e#5485#5683#0" expanded="false" />
-            <element signature="e#5718#5946#0" expanded="false" />
-            <element signature="e#5965#6349#0" expanded="false" />
-            <element signature="e#6378#6540#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,17 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#242#1674#0" expanded="false" />
-            <element signature="e#1709#4770#0" expanded="false" />
-            <element signature="e#4798#4948#0" expanded="false" />
-            <element signature="e#4981#5456#0" expanded="false" />
-            <element signature="e#5485#5683#0" expanded="false" />
-            <element signature="e#5718#5946#0" expanded="false" />
-            <element signature="e#5965#6349#0" expanded="false" />
-            <element signature="e#6378#6540#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,7 +1064,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/full_conected/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
+        <state relative-caret-position="516">
           <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
